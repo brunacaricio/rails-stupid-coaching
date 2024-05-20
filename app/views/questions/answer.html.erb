@@ -1,0 +1,13 @@
+<div class="container p-3 mb-2 bg-light text-dark">
+  <h4><%= params[:question] %></h4>
+  <p class="fst-italic">- You</p>
+</div>
+
+<div class="container p-3 mb-2 text-dark" style="background-color: #ffde00">
+  <h4><%= @answer %></h4>
+  <p class="fst-italic">- Your coach</p>
+</div>
+
+<div class="container p-3 mb-2 bg-light text-dark">
+  <p class="text-white text-decoration-none"><%= link_to "Ask a new question", ask_path %></p>
+</div>
